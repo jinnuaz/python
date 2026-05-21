@@ -13,7 +13,7 @@ def solution(nums):
             right = right -1
         elif(nums[left] + nums[right] < target):
             left = left +1
-        else :
+        else:
             return[left+1,right+1]
 
 print(solution(nums))
