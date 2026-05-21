@@ -10,3 +10,5 @@ def solution(nums):
 
         else:
             hashMap[n] = i
+
+print(f"Two sum results is {solution()}")
