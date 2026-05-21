@@ -11,6 +11,6 @@ def solution(nums):
         elif(nums[left] + nums[right] < target):
             left = left +1
         else :
-            return[left,right]
+            return[left+1,right+1]
 
 print(solution(nums))
