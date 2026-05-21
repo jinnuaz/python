@@ -1,6 +1,9 @@
-nums = [1,3,4,5,7,10,11]
-target = 9
+# nums = [1,3,4,5,7,10,11]
+# target = 9
  #7
+
+nums = [5,25,75]
+target = 100
 
 def solution(nums):
     left = 0
