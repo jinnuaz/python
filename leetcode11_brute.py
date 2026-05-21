@@ -1,6 +1,6 @@
 height = [1,8,6,2,5,4,8,3,7]
 
-def maxArea(self, height):
+def maxArea(height):
 
     res = 0
 
