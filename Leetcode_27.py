@@ -6,7 +6,7 @@ def solution(nums):
 
     for i in range(nums):
         if nums[i] != val:
-            num[k] = num[i]
+            nums[k] = nums[i]
             k += 1
 
     return k
