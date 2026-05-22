@@ -29,6 +29,6 @@ def searchInsert(nums):
         else:
             right = middle - 1
 
-    return left
+    return right
 
 print(f"position of {target} is {searchInsert(nums)}")
