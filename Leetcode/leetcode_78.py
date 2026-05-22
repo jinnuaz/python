@@ -14,7 +14,11 @@ def subsets(nums):
         subset.append(nums[i])
         dfs(i + 1)
 
-    dfs(2) # case 2
+        # decision not including nums[i]
+        subset.pop()
+        dfs(i + 1)
+
+    dfs(0) # case 2
     return res
 
 result = subsets(nums)
