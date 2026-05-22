@@ -32,4 +32,7 @@ def rotate(matrix: List[List[int]]):
 
     return matrix
 
-print(rotate(matrix))
+result = rotate(matrix)
+
+for row in result:
+    print(row)
