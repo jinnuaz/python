@@ -14,7 +14,7 @@ def subsets(nums):
         subset.append(nums[i])
         dfs(i + 1)
 
-    def(0)
+    dfs(0)
     return res
 
 result = subsets(nums)
