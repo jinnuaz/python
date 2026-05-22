@@ -22,4 +22,4 @@ def searchInsert(nums):
 
     return left
 
-print(position of {target} is {searchInsert(nums)})
+print(f"position of {target} is {searchInsert(nums)}")
