@@ -13,8 +13,10 @@ def searchInsert(nums):
     right   = len(nums)-1
 
 
-    while(left < right):
+    while(left <= right):
+
         middle = int(left + right//2)
+
         if target == nums[middle]:
             return middle
 
