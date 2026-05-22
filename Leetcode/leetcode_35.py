@@ -1,7 +1,11 @@
 
 
+# nums = [1,3,5,6]
+# target = 5
+
 nums = [1,3,5,6]
-target = 5
+target = 2
+
 
 def searchInsert(nums):
 
