@@ -18,7 +18,7 @@ def subsets(nums):
         subset.pop()
         dfs(i + 1)
 
-    dfs(0) # case 2
+    dfs(1) # case 2
     return res
 
 result = subsets(nums)
