@@ -3,7 +3,7 @@
 nums = [1,3,5,6]
 target = 5
 
-def searchInsert(nums: List[int]):
+def searchInsert(nums):
 
     left    = 0
     right   = len(nums)-1
@@ -22,4 +22,4 @@ def searchInsert(nums: List[int]):
 
     return left
 
-print (searchInsert(nums))
+print(searchInsert(nums))
