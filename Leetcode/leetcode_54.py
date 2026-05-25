@@ -38,7 +38,7 @@ def spiralOrder(matrix: List[List[int]]):
 
     return res
 
-result = spiralOrder(matrix)
+res = spiralOrder(matrix)
 
-for row in result:
+for row in res:
     print(row)
