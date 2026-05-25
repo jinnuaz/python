@@ -9,10 +9,10 @@ def maxSubArray(nums):
     for n in nums:
         if currSum < 0:
             currSum = 0
-
+        print(f"current sum before = {currSum}")
         currSum = currSum + n
         maxSub = max(maxSub, currSum)
-        print(f"for n = {n}: current sum = {currSum}: maxSub = {maxSub}")
+        print(f"for n = {n}: current sum after = {currSum}: maxSub = {maxSub}")
 
     return maxSub
 
