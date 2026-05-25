@@ -2,7 +2,7 @@ from typing import List
 
 # matrix = [[1,2,3],[4,5,6],[7,8,9]]
 matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
-def spiralOrder(matrix: List[List[int]]):
+def spiralOrder(matrix):
 
     left = 0
     right = len(matrix[0])          # Number of Columns
