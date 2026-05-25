@@ -25,7 +25,7 @@ def spiralOrder(matrix):
             res.append(matrix[i][right - 1])
         right = right - 1
 
-        if not (right < left and top < bottom):
+        if not (left < right and top < bottom):
             break
 
         for i in range(right-1, left-1, -1):
