@@ -12,7 +12,7 @@ def spiralOrder(matrix):
 
     res = []                        # To store the results
 
-    while(right < left and top < bottom):
+    while(left < right and top < bottom):
 
         # Top Rows
         for i in range (left, right):
