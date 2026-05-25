@@ -12,7 +12,7 @@ def maxSubArray(nums):
 
         currSum = currSum + n
         maxSub = max(maxSub, currSum)
-        print(f"for i = {i} - maxSub = {maxSub}")
+        print(f"for n = {n} - maxSub = {maxSub}")
 
     return maxSub
 
