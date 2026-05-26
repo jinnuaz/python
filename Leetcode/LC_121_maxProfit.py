@@ -13,7 +13,8 @@ def maxProfit(prices):
             maxProfit = max(maxProfit, profit)
         else:
             left = right
+
         right = right + 1
-     return maxProfit
+    return maxProfit
 
 print(maxProfit(prices))
