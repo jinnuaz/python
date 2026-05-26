@@ -6,7 +6,7 @@ def maxProfit(prices):
     right       = 1  # right    = sell
     maxProfit   = 0
 
-    while (left < len(prices)):
+    while (right < len(prices)):
         # Profitable
         if prices[left] < prices[right]:
             profit = prices[right] - prices[left]
