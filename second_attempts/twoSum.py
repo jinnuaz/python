@@ -13,6 +13,6 @@ def twoSum(nums):
             return [hashMap[diff], i]
 
         hashMap[n] = i
-
+    return []
 
 print(twoSum(nums))
