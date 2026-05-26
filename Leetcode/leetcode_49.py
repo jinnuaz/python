@@ -16,4 +16,4 @@ def groupAnagrams(strs):
     return res.values()
 
 
-print(groupAnagrams(strs))
+print(list(groupAnagrams(strs)))
