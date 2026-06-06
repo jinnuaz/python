@@ -8,3 +8,4 @@ def bruteforce_twosum(nums, target):
                 return i, j, nums[i], nums[j]
     print(f"sum of two sums = target are {nums[i]} and {nums[j]} and their indices are {i} and {j}")
 result = bruteforce_twosum(nums, target)
+print(result)
