@@ -11,7 +11,7 @@ def TwoSum(nums, target):
             return hashMap[diff], i
         hashMap[nums[i]] = i
 
-print(TwoSum(nums, target))
+print(TwoSum())
 
 
 
