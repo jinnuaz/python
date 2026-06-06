@@ -6,6 +6,5 @@ def bruteforce_twosum(nums, target):
         for j in range(i+1, len(nums)):
             if nums[i] + nums[j] == target:
                 return i, j, nums[i], nums[j]
-
+    print(f"sum of two sums = target are {nums[i]} and {nums[j]} and their indices are {i} and {j}")
 result = bruteforce_twosum(nums, target)
-print(f"sum of two sums = target are {nums[i]} and {nums[j]} and their indices are {i} and {j}")
