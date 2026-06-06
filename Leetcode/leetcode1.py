@@ -1,8 +1,8 @@
-from Leetcode.leetcode_twosum import hashMap
+
 
 nums = [2, 7, 11, 15]
 target = 9
-hashMap = {}
+hash_Map = {}
 
 def TwoSum(nums, target):
     for i in range(len[nums]):
