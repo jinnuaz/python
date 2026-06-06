@@ -5,7 +5,7 @@ target = 9
 hash_Map = {}
 
 def TwoSum(nums, target):
-    for i in range(len[nums]):
+    for i in range(len(nums)):
         diff = target - nums[i]
         if diff in hash_Map:
             return hash_Map[diff], i
