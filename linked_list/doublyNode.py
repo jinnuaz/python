@@ -12,6 +12,17 @@ head = tail = DoublyNode(1)
 print(f"head = {head}")
 print(f"tail = {tail}")
 
+
+def display(head):
+    curr = head
+    elements = []
+    while curr:
+        elements.append(str(curr.val))
+        curr = curr.next
+    print(' <-> '.join(elements))
+
+display(head)
+
 # Head.next = A
 # A.next = B
 # B.next = C
