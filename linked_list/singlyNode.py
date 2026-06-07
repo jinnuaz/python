@@ -18,7 +18,16 @@ B.next = C
 
 # print(Head)
 
-curr = Head
-while curr:
-    print(curr)
-    curr = curr.next
+# curr = Head
+# while curr:
+#     print(curr)
+#     curr = curr.next
+
+
+def display(head):
+    curr = head
+    elements = []
+    while curr:
+        elements.append(str(curr.val))
+        curr = curr.next
+    print(' -> '.join(elements))
