@@ -39,6 +39,6 @@ def search(head, val):
     while curr:
         if val == curr.val:
             return True
-        val = curr.next
+        curr = curr.next
     return False
 search(Head, 3)
