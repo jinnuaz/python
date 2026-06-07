@@ -28,8 +28,7 @@ def display(head):
     curr = head
     elements = []
     while curr:
-        # elements.append(str(curr.val))
-        elements.append((curr.val))
+        elements.append(str(curr.val))
         curr = curr.next
     print(' -> '.join(elements))
 
