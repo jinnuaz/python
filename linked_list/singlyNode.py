@@ -31,3 +31,5 @@ def display(head):
         elements.append(str(curr.val))
         curr = curr.next
     print(' -> '.join(elements))
+
+display(Head)
