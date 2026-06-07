@@ -9,8 +9,8 @@ class DoublyNode:
 
 
 head = tail = DoublyNode(1)
-print(head)
-print(tail)
+print(f"head = {head}")
+print(f"tail = {tail}")
 
 # Head.next = A
 # A.next = B
