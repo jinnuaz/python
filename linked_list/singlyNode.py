@@ -3,8 +3,8 @@ class SinglyNode:
         self.val= val
         self.next = next
 
-    # def __str__(self):
-    #     return str(self.val)
+    def __str__(self):
+        return str(self.val)
 
 
 Head = SinglyNode(1)
