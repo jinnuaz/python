@@ -33,3 +33,12 @@ def display(head):
     print(' -> '.join(elements))
 
 display(Head)
+
+def search(head, val):
+    curr = head
+    while curr:
+        if val == curr.val:
+            return True
+        val = curr.next
+    return False
+search(Head, 3)
