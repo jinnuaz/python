@@ -41,5 +41,5 @@ def search(head, val):
             return True
         curr = curr.next
     return False
-res = search(Head, 10)
-print(f"Result of seach function is {res}")
+res = search(Head, 7)
+print(f"Result of search function is {res}")
