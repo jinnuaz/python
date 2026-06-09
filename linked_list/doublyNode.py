@@ -24,7 +24,7 @@ def display(head):
 def insert_at_begining(head, tail, val):
     new_node = DoublyNode(val, next = head)
     head.prev = new_node
-    return head, new_node
+    return new_node, tail
 
 head, tail = insert_at_begining(head, tail, 3)
 display(head)
