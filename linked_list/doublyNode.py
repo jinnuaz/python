@@ -21,36 +21,10 @@ def display(head):
         curr = curr.next
     print(' <-> '.join(elements))
 
-display(head)
+def insert_at_begining(head, tail, val):
+    new_node = DoublyNode(val, next = head)
+    head.prev = new_node
+    return head, new_node
 
-# Head.next = A
-# A.next = B
-# B.next = C
-#
-# # print(Head)
-#
-# # curr = Head
-# # while curr:
-# #     print(curr)
-# #     curr = curr.next
-#
-#
-# def display(head):
-#     curr = head
-#     elements = []
-#     while curr:
-#         elements.append(str(curr.val))
-#         curr = curr.next
-#     print(' -> '.join(elements))
-#
-# display(Head)
-#
-# def search(head, val):
-#     curr = head
-#     while curr:
-#         if val == curr.val:
-#             return True
-#         curr = curr.next
-#     return False
-# res = search(Head, 7)
-# print(f"Result of search function is {res}")
+head, tail = insert_at_begining(head, tail, 3)
+display(head)
