@@ -40,5 +40,5 @@ class Solution:
                 left = middle_A + 1
 
 sol = Solution()
-result = sol.findMedianSortedArrays([1,3], [2])
+result = sol.findMedianSortedArrays([1,2], [3,4])
 print(result)
