@@ -14,5 +14,5 @@ def lengthOfLongestSubstring(s: str):
         result = max(result, right - left + 1)
     return result
 
-res = lengthOfLongestSubstring("abcabcbb")
+res = lengthOfLongestSubstring("bbbbb")
 print(res)
