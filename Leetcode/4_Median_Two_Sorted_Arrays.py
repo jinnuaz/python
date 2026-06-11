@@ -31,7 +31,7 @@ class Solution:
                     return min(A_right, B_right)
 
                 # Even
-                return (max(A_left, B_left) + min(A_right, B_right) / 2)
+                return (max(A_left, B_left) + min(A_right, B_right)) / 2
 
             elif A_left > B_right:
                 right = middle_A - 1
