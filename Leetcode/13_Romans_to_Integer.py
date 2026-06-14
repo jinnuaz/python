@@ -25,5 +25,6 @@ class roman_to_integer:
 
         return res
 
-result = roman_to_integer.romanToInt("IV")
+obj = roman_to_integer()
+result = obj.romanToInt("IV")
 print(result)
