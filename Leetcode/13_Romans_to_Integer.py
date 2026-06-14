@@ -18,7 +18,7 @@ class roman_to_integer:
         res = 0
 
         for i in range(len(s)):
-            if s[i] < s[i+1]:
+            if i+1 < len(s) and roman_letters[s[i]] < roman_letters[s[i + 1]]:
                 res = res - roman_letters[i]
             else:
                 res = res + roman_letters[s[i]]
