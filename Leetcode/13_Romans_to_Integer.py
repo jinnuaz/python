@@ -1,0 +1,29 @@
+
+
+class roman_to_integer:
+    def romanToInt(self, s: str) -> int:
+
+        # ---> Largest to smallest: Add them up
+        # ---> Smaller before Larger: Subtract smaller
+
+        roman_letters = {
+                            'I': 1,
+                            'V': 5,
+                            'X': 10,
+                            'L': 50,
+                            'C': 100,
+                            'D': 500,
+                            'M': 1000
+                        }
+        res = 0
+
+        for i in range(len(s)):
+            if s[i] < s[i+1]:
+                res = res - roman_letters[i]
+            else:
+                res = res + roman_letters[s[i]]
+
+        return res
+
+result = roman_to_integer.romanToInt("IV")
+print(result)
