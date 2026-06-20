@@ -14,5 +14,5 @@ class Solution:
 
 
 obj = Solution()
-result = obj.lengthOfLastWord(" dfgdfg dfgdsfgd jinnu t chengattu")
+result = obj.lengthOfLastWord(" dfgdfg dfgdsfgd jinnu t chenga ")
 print(result)
