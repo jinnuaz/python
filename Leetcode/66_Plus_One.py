@@ -20,3 +20,5 @@ class Solution:
 
 obj = Solution()
 result = obj.plusOne([1,2,3])
+
+print(result)
