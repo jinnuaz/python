@@ -15,3 +15,4 @@ class Solution:
 
 obj = Solution()
 result = obj.lengthOfLastWord(" dfgdfg dfgdsfgd dfgdfgfgf  ")
+print(result)
