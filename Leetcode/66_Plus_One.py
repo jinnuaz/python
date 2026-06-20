@@ -21,6 +21,6 @@ class Solution:
         return digits[::-1]
 
 obj = Solution()
-result = obj.plusOne([1,2,3])
+result = obj.plusOne([9,9,9,9])
 
 print(result)
