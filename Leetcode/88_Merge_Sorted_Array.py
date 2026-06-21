@@ -22,5 +22,6 @@ class Solution:
         return nums1
 
 obj = Solution()
-result = obj.merge(nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3)
+#result = obj.merge(nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3)
+result = obj.merge(nums1 = [1], m = 1, nums2 = [], n = 0)
 print(result)
