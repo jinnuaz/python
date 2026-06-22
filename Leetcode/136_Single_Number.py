@@ -9,6 +9,6 @@ class Solution:
         return res
 
 obj = Solution()
-result = obj.singleNumber([1,2,3,4,5,6,7,7,8,9])
+result = obj.singleNumber([4,1,2,1,2])
 
 print(result)
