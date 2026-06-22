@@ -1,8 +1,5 @@
 from typing import List
 
-from Brute_Force.twosum import result
-
-
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
 
