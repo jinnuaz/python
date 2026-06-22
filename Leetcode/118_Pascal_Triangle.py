@@ -6,7 +6,7 @@ class Solution:
         res = [[1]]
 
         for i in range(numRows -1):
-            temp = [0] + res[-1] + 0
+            temp = [0] + res[-1] + [0]
             row = []
             for j in range(res[-1]):
                 row.append(temp[j]+temp[j+1])
