@@ -18,6 +18,7 @@ class Solution:
         return start
 
 obj = Solution()
-result = obj.canCompleteCircuit(gas = [1,2,3,4,5], cost = [3,4,5,1,2])
+#result = obj.canCompleteCircuit(gas = [1,2,3,4,5], cost = [3,4,5,1,2])
+result = obj.canCompleteCircuit(gas = [2,3,4], cost = [3,4,3])
 print(result)
 
