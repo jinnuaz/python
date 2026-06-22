@@ -14,5 +14,5 @@ class Solution:
         return res
 
 obj = Solution()
-result = obj.generate(5)
+result = obj.generate(7)
 print(result)
