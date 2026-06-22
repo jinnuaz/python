@@ -5,7 +5,7 @@ class Solution:
 
         res = 0  # n xor 0 = n
         for n in nums:
-            res = res ^ n
+            res = n ^ res
         return res
 
 obj = Solution()
