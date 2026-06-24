@@ -21,7 +21,7 @@ class Solution:
         return True if not stack else False
 
 obj = Solution()
-res = obj.isValid("()[]{}")
+res = obj.isValid("([)]")
 
 print(res)
 # res = obj.isValid("()[]{}")
