@@ -5,7 +5,7 @@ class Solution:
         right = x
         res = 0
 
-        while left < right:
+        while left <= right:
             mid = left + ((right  - left) // 2)
             square = mid * mid
             if square > x:
