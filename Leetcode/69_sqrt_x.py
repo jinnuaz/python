@@ -21,5 +21,5 @@ class Solution:
         return res
 
 obj = Solution()
-result = obj.mySqrt(25)
+result = obj.mySqrt(26)
 print(result)
