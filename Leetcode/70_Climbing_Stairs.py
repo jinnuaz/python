@@ -10,5 +10,5 @@ class Solution:
         return one
 
 obj = Solution()
-result = obj.climbStairs(5)
+result = obj.climbStairs(10)
 print(result)
